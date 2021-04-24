@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<!-- Meta setup -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="">
+	<meta name="decription" content="">
+
+	<!-- Title -->
+	<title>Ambassador Pool</title>
+
+
+	<!-- Include Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+
+	<!-- Main StyleSheet -->
+	<link rel="stylesheet" href="yellow.css" />
+
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css" />
+
+	<!-- START REQUIRED STYLES -->
+	<link rel="stylesheet" href="./css/font-awesome-v5.14.0.min.css" />
+	<link rel="stylesheet" href="./css/jquery-confirm.min.css" />
+	<link rel="stylesheet" href="./css/alertify.min.css" />
+	<link rel="stylesheet" href="./css/alertify-theme-bootstrap.min.css" />
+	<link rel="stylesheet" href="./css/app.css" />
+
+	<!-- END REQUIRED STYLES -->
+
+</head>
+
+<body style="background-image: url(img/yellow.png); background-position: 50% 55%; background-size: cover;">
+	<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+
+	<!-- header area start -->
+	<div style="padding-top: 1rem;" class="header">
+		<div class="container">
+			<div class="header-wrapper">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-5">
+						<div class="header-left">
+							<!-- <a href="index.html">
+										<img src="img/logo.png" alt="images not found">
+										<span>Labs</span>
+									</a> -->
+						</div>
+					</div>
+					<div class="col-lg-6 col-7">
+						<div class="header-right text-right">
+							<!-- <a data-connected-text="Wallet Connected!" id="l-connect-wallet-btn" href="#">Connect Wallet</a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header area end -->
+
+	<!-- hheading area start -->
+	<div class="hheading">
+		<div class="container">
+			<div class="hheading-wrapper text-center">
+				<!-- <h2 style="padding-top: 5rem; padding-bottom: 3rem;">Ambassador Pool</h2> -->
+				<h4 style="display: none">TVL: <span id="l-tvl">0</span> YFSi</h4>
+
+				<br />
+			</div>
+		</div>
+	</div>
+	<!-- hheading area end -->
+
+	<!-- p1cart area start -->
+	<div class="p1cart">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="p1cart-wrapper">
+						<div class="p1cartw-one">
+							<div style="margin-bottom: 0.5rem;" class="row align-items-center">
+								<div class="col-lg-4 col-md-4">
+									<div class="p1cartw-one-bar">
+										<p>My Balance</p>
+										<h2><span id="l-token-balance">0</span> YFSI</h2>
+										<h2 style="font-size: 1.2rem">
+											Next distribution: TBA
+										</h2>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="p1cartw-one-bar p1cartw-one-bar-two">
+										<p>Staked </p>
+										<h2><span id="l-token-staked">0</span></h2>
+										<!-- <h2 style="font-size: 1.2rem;">&nbsp;</h2> -->
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="p1cartw-three-bar text-right">
+										<ul>
+
+											<li style="height: fit-content;" class="mb-2 text-right">
+												<div class="l-input-group" style="max-width: 180px; margin: auto">
+													<div class="input-group">
+														<input id="l-deposit-input" style="
+                                  border-top-left-radius: 1rem;
+                                  border-bottom-left-radius: 1rem;
+                                " class="form-control" placeholder="0" type="text" value="" />
+														<div class="input-group-append">
+															<button id="l-set-max-deposit-btn"
+																class="btn btn-primary orange yellow"
+																style="cursor: pointer">
+																MAX
+															</button>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li class="mt-2"><a id="l-stake-btn" class="mt-2" href="#">Stake</a></li>
+
+											<li style="height: fit-content;" class="mt-4 mb-2 text-right">
+												<div class="l-input-group" style="max-width: 180px; margin: auto">
+													<div class="input-group">
+														<input id="l-withdraw-input" style="
+                                  border-top-left-radius: 1rem;
+                                  border-bottom-left-radius: 1rem;
+                                " class="form-control" placeholder="0" type="text" value="" />
+														<div class="input-group-append">
+															<button id="l-set-max-withdraw-btn"
+																class="btn btn-primary orange yellow"
+																style="cursor: pointer">
+																MAX
+															</button>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li><a id="l-unstake-btn" class="mt-2" href="#">Unstake</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div style="position: relative; top: -20px;" class="p1cartw-two">
+							<div class="row">
+								<div class="col-lg-4 col-md-4">
+									<div class="p1cartw-two-left">
+										<p>Ambassador Pool</p>
+										<h4>Stake Fee: <span id="l-staking-fee">0</span> %</h4>
+										<h4>
+											Unstake Fee: <span id="l-unstaking-fee">0</span> %
+										</h4>
+										<h4 style="font-size: .8rem;" class="show-during-high-fee-period">High Unstake
+											Fee During the 6-month Lockup Period. </h4>
+
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="p1cartw-two-middle">
+
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="p1cartw-two-right">
+										<h4>Minimum YFSI </h4>
+										<h2> 50 </h2>
+										<h4 style="font-size: .8rem;"> Stake minimum 50 YFSI to be eligible to receive
+											BSCI. The larger the staked number of tokens, the larger percentage received
+											of the overall payout(s). </h4>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="_stakers_value" style="display:none;">
+		0
+	</div>
+	<div id="_connect_state_achieved" style="display:none;">
+		false
+	</div>
+	<!-- <div id="_button_stake_achieved" style="display:none;">
+		false
+	</div>
+	<div id="_button_unStake_achieved" style="display:none;">
+		false
+	</div>
+	<div id="_button_stake_max_achieved" style="display:none;">
+		false
+	</div>
+	<div id="_button_unStake_max_achieved" style="display:none;">
+		false
+	</div> -->
+	<!-- <div id="_input_stake_achieved" style="display:none;">
+		0
+	</div> -->
+	<!-- <input id="_input_stake_achieved" style="
+                                  border-top-left-radius: 1rem;
+                                  border-bottom-left-radius: 1rem;
+                                " class="form-control" placeholder="0" type="text" value="" /> -->
+	<!-- p1cart area end -->
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Main jQuery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Bootstrap Propper jQuery -->
+	<script src="js/popper.js"></script>
+
+	<!-- Bootstrap jQuery -->
+	<script src="js/bootstrap.js"></script>
+
+	<!-- Fontawesome Script -->
+	<script src="https://kit.fontawesome.com/7749c9f08a.js"></script>
+
+	<!-- Custom jQuery -->
+	<script src="js/scripts.js"></script>
+
+	<!-- Scroll-Top button -->
+	<a href="#" class="scrolltotop"><i class="fas fa-angle-up"></i></a>
+
+	<!-- START REQUIRED SCRIPTS -->
+	<script src="./js/jquery-confirm.min.js"></script>
+	<script src="./js/alertify.min.js"></script>
+
+	<script src="./js/web3.min.js"></script>
+	<script src="./js/bignumber.min.js"></script>
+	<script src="./js/Ambassadors.js"></script>
+	<script src="./js/app.js"></script>
+	<!-- END REQUIRED SCRIPTS -->
+</body>
+
+</html>

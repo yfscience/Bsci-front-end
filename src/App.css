@@ -1,0 +1,190 @@
+.sc-hTZhsR {
+  display: none;
+}
+.sc-bdfBwQ img {
+  transform: scale(1.5) !important;
+  height: 100px !important;
+}
+.sc-eCssSg .sc-bdfBwQ {
+  overflow: visible !important;
+}
+.sc-eCssSg .sc-bdfBwQ image {
+  height: 55px !important;
+  transform: translateX(-30px) translateY(-15px);
+}
+@media only screen and (max-width: 960px) {
+  .sc-eCssSg .sc-bdfBwQ image {
+    height: 55px !important;
+    transform: translateX(0px) translateY(-10px);
+  }
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+.farm_card_multiplier {
+  background-color: #10223c;
+  color: rgba(255, 255, 255, 0.6);
+  width: 65px;
+  margin-left: 5px;
+  height: 22px;
+  border-radius: 360px;
+  font-weight: 300 !important;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.farm_card_main_heading {
+  font-size: 24px !important;
+}
+.farm_card_table_grid {
+  width: 100%;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.farm_card_table_divider {
+  height: 1px;
+  background: #f0bb0b8c;
+  width: 100%;
+}
+.farm_card_table_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.farm_card_table_left {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.42);
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.farm_card_table_right {
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.farm_card_deposit_heading {
+  color: #f6d869;
+  font-weight: 600;
+  font-size: 20px;
+}
+.MuiButton-containedPrimary {
+  color: #f6d76a !important;
+  border: '1px solid #64592F' !important;
+  border-radius: 360px !important;
+  background-color: #0c1b30 !important;
+  font-weight: 700 !important;
+  box-shadow: 0px 0px 10px rgb(240, 185, 11, 0.6) !important;
+  font-size: 1.8rem;
+  text-transform: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400 !important;
+}
+.MuiButton-outlinedPrimary {
+  color: #f6d76a !important;
+  border: '1px solid #f6d76a' !important;
+  border-color: rgb(240, 185, 11, 0.6) !important;
+  border-radius: 360px !important;
+  /* background-color: #0c1b30 !important; */
+  font-weight: 700 !important;
+  /* box-shadow: 0px 0px 10px rgb(240, 185, 11, 0.6) !important; */
+  font-size: 1.8rem;
+  text-transform: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400 !important;
+}
+.farm_card_harvest_btn {
+  /* height: 57px; */
+  font-size: 25px;
+  width: 120px;
+}
+.farm_card_harvest_btn svg {
+  width: 0px;
+  transition: all 300ms;
+  transform: translateY(2px);
+}
+.farm_card_harvest_btn:hover svg {
+  width: 20px;
+}
+.farm_card_unlock_btn {
+  height: 45px;
+  margin-top: 10px !important;
+}
+.farm_card_unlock_btn svg {
+  width: 0px;
+  transition: all 300ms;
+}
+.farm_card_unlock_btn:hover svg {
+  width: 20px;
+}
+.farm_card_showhid_button {
+  color: #F6D76A;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.farm_card_view_on_link {
+  color: #f6d869 !important;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.farm_grid_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+.sc-gGmIRh > div:nth-child(2) button {
+  color: #f6d76a !important;
+  border: 1px solid #f6d76a !important;
+  border-radius: 360px !important;
+  background-color: #0c1b30 !important;
+  font-weight: 700 !important;
+  /* box-shadow: 0px 0px 10px rgb(240, 185, 11, 0.6) !important; */
+  font-size: 14px;
+  /* width: 100px !important; */
+  text-transform: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 140px;
+  font-weight: 400 !important;
+}
+
+@media only screen and (min-width: 800px){
+  .farm_card_wrapper{
+    max-width: 400px;
+  }
+  .farm_card_wrapper2{
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}
+.sc-iBaPrD{
+  background-color: #10223C !important;
+}
+
+.sc-bBrOnJ:nth-child(6) > a{
+  border-bottom: 1px solid #f7d66a48;
+}
+
+.sc-bBrOnJ:nth-child(9) > a{
+  border-bottom: 1px solid #f7d66a48;
+}
+
+.dhkDUa{
+  background-color: #0c1b30 !important;
+}
+
+.bXgPeE{
+  background-color: #0c1b30 !important;
+}

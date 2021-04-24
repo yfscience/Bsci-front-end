@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+  color: #535353;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-webkit-selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-moz-selection {
+  color: white;
+  background: #ff7675;
+}
+
+.scrolltotop {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 22px;
+  color: #ffffff;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*=======================
+    page-one-start
+=======================*/
+
+/*-- header area start --*/
+
+.header-left a {
+  display: inline-block;
+  color: #535353;
+}
+
+.header-left a img {
+  display: inline-block;
+  width: 74px;
+}
+
+.header-left a span {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #535353;
+  margin-left: 30px;
+}
+
+.header-right-lp a {
+  display: inline-block;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  background: linear-gradient(
+    270deg,
+    rgba(237, 238, 242, 0.7) 0%,
+    rgba(211, 211, 211, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+  padding: 12px 52px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.header-right a {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 203, 143, 0.7) 0%,
+    rgba(15, 154, 141, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+  padding: 12px 52px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.header-right a:hover {
+  opacity: 0.7;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+/*-- header area end --*/
+
+/*-- hheading area start --*/
+.hheading-wrapper h2 {
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+/*-- hheading area end --*/
+
+/*-- p1cart area start --*/
+.p1cartw-one-lp {
+  background-image: url(img/m1yfsi.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 25px 40px 88px 65px;
+}
+
+/*-- p1cart area start --*/
+.p1cartw-one {
+  background-image: url(img/m1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 25px 40px 88px 65px;
+}
+
+.p1cartw-one-bar p {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #7c7c7c;
+}
+
+.p1cartw-one-bar h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.p1cartw-one-bar ul li {
+  display: inline-block;
+}
+
+.p1cartw-three-bar-lp ul li a {
+  display: inline-block;
+  color: #3a3939;
+  border-radius: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 0px;
+  background: linear-gradient(
+    270deg,
+    rgba(237, 238, 242, 0.7) 0%,
+    rgba(211, 211, 211, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+  width: 180px;
+  text-align: center;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.p1cartw-three-bar ul li a {
+  display: inline-block;
+  color: #fff;
+  border-radius: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 0px;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 203, 143, 0.7) 0%,
+    rgba(15, 154, 141, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+  width: 180px;
+  text-align: center;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.p1cartw-three-bar ul li:last-child a {
+  margin-top: 20px;
+}
+
+.p1cartw-three-bar ul li a:hover {
+  opacity: 0.7;
+}
+
+.p1cartw-two-lp {
+  background-image: url(img/m2yfsi.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 25px 60px 80px 60px;;
+}
+
+.p1cartw-two {
+  background-image: url(img/m2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 40px 75px 100px 80px;
+}
+
+.p1cartw-two-left p {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #7c7c7c;
+}
+
+.p1cartw-two-right p {
+  margin-bottom: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #7c7c7c;
+}
+
+.p1cartw-two-right h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.p1cartw-two-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p1cartw-two-button-lp a {
+  display: inline-block;
+  color: #3a3939;
+  background: linear-gradient(
+    270deg,
+    rgba(237, 238, 242, 0.7) 0%,
+    rgba(211, 211, 211, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  border-radius: 45px;
+  text-align: center;
+  width: 370px;
+  font-size: 20px;
+  padding: 15px 0px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.p1cartw-two-button a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 203, 143, 0.7) 0%,
+    rgba(15, 154, 141, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+  text-align: center;
+  width: 370px;
+  font-size: 20px;
+  padding: 15px 0px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.p1cartw-two-button a:hover {
+  opacity: 0.7;
+}
+
+.p1cartw-two-button {
+  margin-top: 40px;
+}
+
+/*-- p1cart area end --*/
+
+/*=======================
+    page-one-end
+=======================*/
+
+/*=======================
+    page-two-start
+=======================*/
+
+/*-- p2block area start --*/
+.p2block-one {
+  background: #d1e3e3;
+  border-radius: 40px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  box-shadow: 4px 10px 20px 0px rgba(38, 38, 38, 0.2);
+}
+
+.p2bo-heading h3 {
+  font-weight: 700;
+  color: #3a3a3a;
+  font-size: 33px;
+  margin-bottom: 0;
+}
+
+.p2bo-heading p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #7c7c7c;
+}
+
+.p2bo-content {
+  margin-top: 48px;
+}
+
+.p2bo-content p {
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #444545;
+  font-weight: 500;
+}
+
+.p2bo-content span {
+  display: block;
+  font-size: 18px;
+  color: #7c7c7c;
+  font-weight: 600;
+}
+
+.p2bo-content a {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background: linear-gradient(
+    270deg,
+    rgba(0, 203, 143, 0.7) 0%,
+    rgba(15, 154, 141, 0.7) 96.88%
+  );
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.44),
+    4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 45px;
+  padding: 10px 40px;
+  margin-top: 30px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+}
+
+.p2bo-content a:hover {
+  opacity: 0.7;
+}
+
+.p2block-two {
+  margin-top: 70px;
+}
+
+.p2block {
+  /* background-image: url(img/p2lbg.png); */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+/*-- p2block area end --*/
+
+/*=======================
+    page-two-end
+=======================*/
+
+body,
+html {
+  min-height: 100%;
+}
